@@ -1,0 +1,65 @@
+body{
+font-family:Times New Roman,Calibri,sansserif;
+font-size:133.3%;
+text-align:center;
+margin: 10px 70px 70px 70px;
+height : 100%
+}
+
+
+
+
+
+
+
+
+.parallax{
+background-image: url("images/tokyo.jpg") ;
+height:auto;
+width:auto;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+
+ul#navigation{
+border:10px solid white;
+width:auto;
+font-size: 133.3%;
+font-weight: bold ;
+overflow: hidden;
+padding: 20px 40px;
+color:white;
+background-color:transparent;
+}
+
+ul#navigation li {
+display:inline;
+}
+
+ul#navigation a {
+padding:10px;
+border:10px;
+margin:20px;
+text-decoration: none;
+float: none;
+color: black;
+text-align: center;
+line-height: 25px;
+border-radius: 4px;
+}
+
+ul#navigation a:hover{
+background-color: #33A5FF;
+color:white;
+}
+
+/*Text Boxes*/
+.h2{border: 3px solid black;
+	 border-radius: 15px;
+	 background-image: linear-gradient(to bottom, white, #1E88E5)
+}
+
